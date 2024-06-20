@@ -14,7 +14,9 @@ print(mask_account_card('Счет 64686473678894779589'))
 print(mask_account_card('MasterCard 7158300734726758'))
 print(mask_account_card('Visa Classic 6831982476737658'))
 
-# def get_data(my_date: str) -> str:
-#     '''возвращает дату в виде ДД.ММ.ГГГГ'''
-#     pass
+def get_data(my_date: str) -> str:
+    '''Возвращает дату в виде ДД.ММ.ГГГГ'''
+    return my_date[8:10] + '.' + my_date[5:7] + '.' + my_date[:4]
+
+print(get_data('2018-07-11T02:26:18.671407'))
 
