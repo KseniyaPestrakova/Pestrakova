@@ -1,4 +1,5 @@
-from typing import List, Any, Dict
+from typing import Any, Dict, List
+
 
 def filter_by_state(list_dict: List[Dict[str, Any]], state: str = "EXECUTED") -> List[Dict[str, Any]]:
     """Фильтрует операции по ключу state"""
@@ -49,4 +50,3 @@ if __name__ == "__main__":
             ]
         )
     )
-
