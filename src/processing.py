@@ -1,5 +1,5 @@
 def filter_by_state(list_dic: list, state='EXECUTED') -> list:
-    '''Фильтрует операции по ключу state'''
+    """Фильтрует операции по ключу state"""
     result_list = list()
     for dic in list_dic:
         if dic['state'] == state:
@@ -8,7 +8,7 @@ def filter_by_state(list_dic: list, state='EXECUTED') -> list:
 
 
 def sort_by_date():
-    '''Функция сортировки операций по дате'''
+    """Функция сортировки операций по дате"""
     pass
 
 
