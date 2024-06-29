@@ -10,6 +10,3 @@ def get_mask_account(account_number: int) -> str:
     if len(str(account_number)) != 20:
         raise ValueError('Номер карты должен состоять из 16 цифр')
     return "**" + str(account_number)[-4:]
-
-
-
