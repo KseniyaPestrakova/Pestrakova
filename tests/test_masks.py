@@ -27,3 +27,4 @@ def test_get_mask_account(account_number, expected):
 def test_get_mask_account_invalid_len(bad_number):
     with pytest.raises(ValueError):
         get_mask_account(bad_number)
+
