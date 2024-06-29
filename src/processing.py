@@ -12,10 +12,7 @@ def filter_by_state(list_dict: List[Dict[str, Any]], state: str = "EXECUTED") ->
 
 def sort_by_date(list_dict_dates: List[Dict[str, Any]], reverse: bool = True) -> List[Dict[str, Any]]:
     """Функция сортировки операций по дате"""
-    if reverse is False:
-        return sorted(list_dict_dates, key=lambda dictionary_dates: dictionary_dates["date"])
-    else:
-        return sorted(list_dict_dates, key=lambda dictionary_dates: dictionary_dates["date"], reverse=True)
+    return sorted(list_dict_dates, key=lambda dictionary_dates: dictionary_dates["date"], reverse=reverse)
 
 
 if __name__ == "__main__":
