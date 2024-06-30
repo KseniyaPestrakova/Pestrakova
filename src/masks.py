@@ -1,13 +1,12 @@
 def get_mask_card_number(card_number: int) -> str:
-    """возвращает маску номера карты в формате XXXX XX** **** XXXX"""
+    """Возвращает маску номера карты в формате XXXX XX** **** XXXX"""
+    if len(str(card_number)) != 16:
+        raise ValueError('Номер карты должен состоять из 16 цифр')
     return str(card_number)[:4] + " " + str(card_number)[4:6] + "** **** " + str(card_number)[-4:]
 
 
 def get_mask_account(account_number: int) -> str:
-    """возвращает маску номера счета в формате **XXXX"""
+    """Возвращает маску номера счета в формате **XXXX"""
+    if len(str(account_number)) != 20:
+        raise ValueError('Номер карты должен состоять из 16 цифр')
     return "**" + str(account_number)[-4:]
-
-
-if __name__ == "__main__":
-    print(get_mask_account(73654108430135874305))
-    print(get_mask_card_number(7000792289606361))
