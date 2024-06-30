@@ -6,7 +6,7 @@ def filter_by_currency(transactions: list, currency: str) -> dict:
         n += 1
 
 
-transactions_list =     [
+transactions =     [
         {
             "id": 939719570,
             "state": "EXECUTED",
@@ -84,10 +84,25 @@ transactions_list =     [
         }
     ]
 
-usd_transactions = filter_by_currency(transactions_list, "USD")
+# usd_transactions = filter_by_currency(transactions, "USD")
+#
+# for _ in range(3):
+#     print(next(usd_transactions)["id"])
 
-for _ in range(3):
-    print(next(usd_transactions)["id"])
+
+def transaction_descriptions(transactions):
+    n = 0
+    while True:
+        my_list = list(
+            (transact["description"] for transact in transactions))
+        yield my_list[n]
+        n += 1
+
+
+descriptions = transaction_descriptions(transactions)
+
+for _ in range(2):
+    print(next(descriptions))
 
 
 
