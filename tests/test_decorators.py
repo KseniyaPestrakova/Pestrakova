@@ -35,19 +35,19 @@ def test_log_result_with_filename() -> None:
 
 
 @log(filename="mylog.txt")
-def test_log_with_filename(filename: 'str') -> None:
+def test_log_with_filename() -> None:
 
     my_function_file(4, 5)
-    with open(filename, "r", encoding="utf-8") as f:
+    with open("mylog.txt", "r", encoding="utf-8") as f:
         result = f.read()
         assert result == "my_function_file 9\n"
 
 
 @log(filename="mylog.txt")
-def test_log_with_filename_error(filename: 'str') -> None:
+def test_log_with_filename_error() -> None:
 
     my_function_file(4, "5")
-    with open(filename, "r", encoding="utf-8") as f:
+    with open("mylog.txt", "r", encoding="utf-8") as f:
         result = f.read()
         assert result == (
             "my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, " "'5'),{}\n"
