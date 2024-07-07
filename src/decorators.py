@@ -29,4 +29,5 @@ def log(filename: Any = None) -> Any:
 
 @log(filename="mylog.txt")
 def my_function_file(x: Any, y: Any) -> Any:
+    '''Выводим функцию для проверки работы декоратора'''
     return x + y
