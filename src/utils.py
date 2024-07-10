@@ -15,3 +15,4 @@ def get_list_transactions(path: str) -> list:
     except FileNotFoundError:
         list_transactions_notfound_error: list[Any] = []
         return list_transactions_notfound_error
+

@@ -21,6 +21,9 @@ def get_summ_transactions_rub(transaction: dict) -> float:
 
         data = response.json()
         result = data["result"]
-        return float(round(result, 2))
+        if response.status_code == 200:
+            return float(round(result, 2))
+        else:
+            print(f"Запрос не был успешным. Возможная причина: {response.reason}")
     else:
         return float(amount)
