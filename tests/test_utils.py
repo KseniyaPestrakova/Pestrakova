@@ -1503,3 +1503,12 @@ def test_get_list_transactions():
     "to": "Счет 96527012349577388612"
   }
 ]
+
+
+if __name__ == '__main__':
+    result = get_list_transactions_csv('..\\data\\transactions.csv')
+    print(result)
+
+if __name__ == '__main__':
+    result = get_list_transactions_xlsx('..\\data\\transactions_excel.xlsx')
+    print(result)
