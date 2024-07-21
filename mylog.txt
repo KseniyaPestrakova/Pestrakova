@@ -3175,3 +3175,463 @@ test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_
   + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
   
   ...Full output truncated (3163 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3173 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3186 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3196 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3209 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3219 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3232 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3242 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3255 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3265 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3278 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3288 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3301 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3311 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3324 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3334 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3347 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3357 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3370 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3380 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3393 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3403 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3416 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3426 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3439 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3449 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3462 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3472 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3485 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3495 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3508 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3518 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3531 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3541 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3554 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3564 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3577 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3587 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3600 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file 9
+my_function_file 9
+test_log_with_filename error:assert 'my_function_...tion_file 9\n' == 'my_function_file 9\n'
+  
+    my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3610 lines hidden), use '-vv' to show. Inputs: (),{}
+my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+test_log_with_filename_error error:assert "my_function_...(4, '5'),{}\n" == "my_function_...(4, '5'),{}\n"
+  
+  + my_function_file 9
+  + my_function_file 9
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}
+  + my_function_file 9
+  + test_log_with_filename error:expected str, bytes or os.PathLike object, not function. Inputs: (),{}
+  + my_function_file error:unsupported operand type(s) for +: 'int' and 'str'. Inputs: (4, '5'),{}...
+  
+  ...Full output truncated (3623 lines hidden), use '-vv' to show. Inputs: (),{}
