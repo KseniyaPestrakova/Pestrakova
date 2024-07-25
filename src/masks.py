@@ -10,7 +10,7 @@ logging.basicConfig(
 masks_logger = logging.getLogger("masks")
 
 
-def get_mask_card_number(card_number: int) -> str:
+def get_mask_card_number(card_number: str) -> str:
     """Возвращает маску номера карты в формате XXXX XX** **** XXXX"""
 
     masks_logger.info("Starting func get_mask_card_number")
@@ -24,7 +24,7 @@ def get_mask_card_number(card_number: int) -> str:
     return str(card_number)[:4] + " " + str(card_number)[4:6] + "** **** " + str(card_number)[-4:]
 
 
-def get_mask_account(account_number: int) -> str:
+def get_mask_account(account_number: str) -> str:
     """Возвращает маску номера счета в формате **XXXX"""
 
     masks_logger.info("Starting func get_mask_account")
