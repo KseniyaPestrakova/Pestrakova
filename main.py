@@ -86,7 +86,7 @@ def main() -> Any:
     question_search = "Отфильтровать список транзакций по определенному слову в описании? Да/Нет\n"
     user_choice_search = input(f"{question_search}").lower()
     if user_choice_search == "да":
-        search_list = input(f"Введите слово для поиска: ")
+        search_list = input("Введите слово для поиска:")
         filter_rub_transactions_search = filter_by_search(filter_rub_transactions, search_list)
     else:
         filter_rub_transactions_search = filter_rub_transactions
@@ -118,7 +118,8 @@ def main() -> Any:
                     print(f"Сумма: {round(transaction['amount'], 0)} {transaction['currency_code']}\n")
             except KeyError:
                 print(
-                    f"Сумма: {round(float(transaction['operationAmount']['amount']), 0)} {transaction['operationAmount']['currency']['name']}\n"
+                    f"Сумма: {round(float(transaction['operationAmount']['amount']), 0)} "
+                    f"{transaction['operationAmount']['currency']['name']}\n"
                 )
     else:
         print("Не найдено ни одной транзакции, подходящей под ваши условия фильтрации")
