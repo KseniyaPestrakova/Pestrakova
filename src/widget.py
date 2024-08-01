@@ -6,10 +6,10 @@ def mask_account_card(client_info: str) -> str:
     if type(client_info) is not str:
         raise ValueError("Недостаточно информации о карте/счете")
     if "Счет" in client_info:
-        account_number = int(client_info[-20:])
+        account_number = str(client_info[-20:])
         return str("Счет " + get_mask_account(account_number))
     else:
-        card_number = int(client_info.replace(" ", "")[-16:])
+        card_number = str(client_info.replace(" ", "")[-16:])
         return str(client_info[:-16] + get_mask_card_number(card_number))
 
 

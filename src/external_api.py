@@ -4,7 +4,7 @@ import requests
 from dotenv import load_dotenv
 
 
-def get_summ_transactions_rub(transaction: dict) -> float:
+def get_summ_transactions_rub(transaction: dict) -> float | str:
     """Возвращает сумму транзакции в рублях"""
 
     amount = transaction["operationAmount"]["amount"]
@@ -25,5 +25,6 @@ def get_summ_transactions_rub(transaction: dict) -> float:
             return float(round(result, 2))
         else:
             print(f"Запрос не был успешным. Возможная причина: {response.reason}")
+            return response.reason
     else:
         return float(amount)

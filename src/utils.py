@@ -7,7 +7,7 @@ import pandas as pd
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(filename)s - %(levelname)s - %(message)s",
-    filename="..\\logs\\utils.log",
+    filename="logs/utils.log",
     filemode="w",
 )
 
